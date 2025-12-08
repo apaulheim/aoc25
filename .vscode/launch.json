@@ -9,8 +9,24 @@
       "request": "launch",
       "name": "Day1",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\js\\1.js",
-      "cwd": "${workspaceFolder}\\js"
+      "program": "${workspaceFolder}/js/1.js",
+      "cwd": "${workspaceFolder}/js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Day3",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/js/3.js",
+      "cwd": "${workspaceFolder}/js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Day5",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/js/5.js",
+      "cwd": "${workspaceFolder}/js"
     }
   ]
 }
