@@ -27,6 +27,14 @@
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/js/5.js",
       "cwd": "${workspaceFolder}/js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Day6",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/js/6.js",
+      "cwd": "${workspaceFolder}/js"
     }
   ]
 }
